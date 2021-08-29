@@ -28,17 +28,12 @@ $ npm install vue-input-money
 
 #### Register as Component
 ```js
-import Vue from 'vue'
 import InputMoney from 'vue-input-money'
 
 export default {
-  
-  name: 'App',
-
   components: {
     InputMoney
   }
-
 }
 ```
 

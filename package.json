@@ -1,6 +1,6 @@
 {
   "name": "vue-input-money",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/input-money.ssr.js",
   "browser": "dist/input-money.esm.js",
