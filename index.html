@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InputMoney Component for Vue 3</title>
+</head>
+<body>
+
+  <div id="app">
+    <input-money v-model="price"></input-money>
+  </div>
+
+  <script src="https://unpkg.com/vue@3"></script>
+  <script src="https://unpkg.com/vue-input-money"></script>
+  
+  <script>
+    const app = Vue.createApp({
+      data () {
+        return {
+          price: 1500000
+        }
+      }
+    })
+    app.use(InputMoney)
+    app.mount('#app')
+  </script>
+    
+</body>
+</html>
