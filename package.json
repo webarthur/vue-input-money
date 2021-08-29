@@ -1,6 +1,6 @@
 {
   "name": "vue-input-money",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/input-money.ssr.js",
   "browser": "dist/input-money.esm.js",
@@ -51,5 +51,8 @@
   "engines": {
     "node": ">=12"
   },
-  "author": "Arthur Ronconi <webarthur@gmail.com> (https://devarthur.com)"
+  "author": "Arthur Ronconi <webarthur@gmail.com> (https://devarthur.com)",
+  "dependencies": {
+    "core-js": "^3.16.4"
+  }
 }

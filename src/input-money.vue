@@ -15,13 +15,7 @@ export default {
   setup(props, context) {
     const { emit } = context
     const $refs = toRefs(props)
-    const modelValue = $refs.modelValue
-    const vDefault = $refs.default
-    const value = ref(props.modelValue || vDefault.value || '10010101')
-
-    if (!modelValue.value) {
-      value.value = vDefault.value || '10010101'
-    }
+    const value = ref($refs.modelValue.value || $refs.default.value || '')
 
     function formatMoney (val, signal = '') {
       if (!val)
