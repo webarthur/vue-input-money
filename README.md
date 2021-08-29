@@ -2,19 +2,28 @@
 
 Input field component to display a formatted currency value for [Vue 3](https://vuejs.org/).
 
+[Live Demo](https://webarthur.github.io/vue-input-money/)
+
+### Install via NPM
+```sh
+$ npm install vue-input-money
+```
 
 ### Install via CDN
 ```html
 <script src="https://unpkg.com/vue"></script>
 <script src="https://unpkg.com/vue-input-money"></script>
 <script>
-  Vue.use(InputMoney.default)
+  const app = Vue.createApp({
+    data () {
+      return {
+        price: 1500000
+      }
+    }
+  })
+  app.use(InputMoney)
+  app.mount('#app')
 </script>
-```
-
-### Install via NPM
-```sh
-$ npm install vue-input-money
 ```
 
 #### Register as Component
