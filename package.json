@@ -1,6 +1,6 @@
 {
   "name": "vue-input-money",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/input-money.ssr.js",
   "browser": "dist/input-money.esm.js",
@@ -11,6 +11,10 @@
     "dist/*",
     "src/**/*.vue"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webarthur/vue-input-money.git"
+  },
   "sideEffects": false,
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
@@ -46,5 +50,6 @@
   },
   "engines": {
     "node": ">=12"
-  }
+  },
+  "author": "Arthur Ronconi <webarthur@gmail.com> (https://devarthur.com)"
 }
