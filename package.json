@@ -28,5 +28,5 @@
     "@vue/compiler-sfc": "^3.2.6",
     "vite": "^2.5.2"
   },
-  "author": "Arthur Ronconi <webarthur@gmail.com> (https://devarthur.com)",
+  "author": "Arthur Ronconi <webarthur@gmail.com> (https://devarthur.com)"
 }
