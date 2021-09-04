@@ -1,11 +1,12 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import InputMoney from './components/InputMoney.vue'
+// import InputMoney from './components/InputMoney.vue'
 </script>
 
 <template>
-  <input-money msg="Hello Vue 3 + Vite" />
+1
+  <!-- <input-money msg="Hello Vue 3 + Vite" /> -->
 </template>
 
 <style>

@@ -14,16 +14,25 @@
 
   <script src="https://unpkg.com/vue@3"></script>
   <script src="https://unpkg.com/vue-input-money"></script>
+
+  <!-- Tests for dev -->
+  <!-- <script src="./dist/input-money.umd.js"></script> -->
   
   <script>
     const app = Vue.createApp({
+      components: {
+        InputMoney
+      },
       data () {
         return {
           price: 1500000
         }
       }
     })
-    app.use(InputMoney)
+    
+    // Global component setup
+    // app.use(InputMoney)
+
     app.mount('#app')
   </script>
     

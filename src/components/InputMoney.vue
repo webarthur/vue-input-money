@@ -12,6 +12,14 @@ export default {
   
   props: ['default', 'modelValue'],
 
+  install (app) {
+
+    console.log('app', app)
+    console.log('this', this)
+
+    app.component('input-money', this)
+  },
+
   setup(props, context) {
     const { emit } = context
     const $refs = toRefs(props)
