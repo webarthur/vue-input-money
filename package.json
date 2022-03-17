@@ -1,6 +1,7 @@
 {
   "name": "vue-input-money",
-  "version": "1.0.5",
+  "version": "1.0.6",
+  "homepage": "https://webarthur.github.io/vue-input-money/",
   "description": "",
   "files": ["dist"],
   "main": "./dist/input-money.umd.js",
@@ -28,5 +29,6 @@
     "@vue/compiler-sfc": "^3.2.6",
     "vite": "^2.5.2"
   },
+  "license": "MIT",
   "author": "Arthur Ronconi <webarthur@gmail.com> (https://devarthur.com)"
 }
